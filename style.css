@@ -1,0 +1,39 @@
+.card{
+    margin-top: 15%
+}
+
+:root{
+    --navbar-height: 40px;
+    --footer-height: 40px;
+    --header-height: 40px;
+}
+.my-header{
+    width: 100%;
+    min-height: var(--header-height);
+    background-color: rgb(68, 103, 148);
+    padding: 20px 20px; 
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #e3f5ff;
+}
+
+.navbar-akademik{
+background: #96d1f3;
+min-height: var(--navbar-height);
+}
+
+
+.my-footer{
+    width: 100%;
+    min-height: var(--footer-height);
+    background-color: rgb(95, 134, 185);
+    padding: 20px 20px;
+}
+
+.content-section{
+    min-height: calc(100% - var(--navbar-height) - var(--footer-height));
+}

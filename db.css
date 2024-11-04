@@ -1,0 +1,52 @@
+:root{
+    --sidebar-width: 230px;
+}
+
+html,body{
+    height: 100%;
+    min-height: 100%;
+}
+
+.container-all{
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    background: #546d85;
+    min-height: 100%;
+    width: var(--sidebar-width);
+}
+
+.main-content{
+    background: #dceffc;
+    min-height: 100%;
+    width: calc(100%  - var(--sidebar-width));
+}
+
+.sidebar header{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    background: #79bcdb;
+    user-select: none;
+}
+
+.sidebar > .sidebar-list{
+    list-style: none;
+}
+.sidebar > .sidebar-list > .sidebar-item > a{
+    display: block;
+    padding: 8px 12px;
+    color: aliceblue;
+    line-height: 30px;
+    font-style: normal;
+}
+
+
+.btn.btn-primary.data-diri-submit{
+    width: 10%;
+    margin-left: 45%;
+}
